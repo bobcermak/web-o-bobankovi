@@ -1,0 +1,419 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  body{
+    border: 0px solid;
+    margin: 5px;
+    background-color: rgb(39, 48, 67)
+    }
+
+    .hlava{
+      position: sticky;
+      z-index: 100;
+      left: 0px;
+      top: 0px;
+      border:0px solid;
+      width: 100%;
+      height: 70px;
+      font-size: 30px;
+      background-color: rgb(39, 48, 67) ;
+    }
+
+    
+    .vse{
+      position: absolute;
+      border: 0px solid;
+      left: 42%;
+      top: -2%;
+      color: rgb(19, 75, 158);
+      font-family:"consolas";
+      text-shadow: 3px 3px 5px hsl(208, 47%, 42%), -3px -3px 5px hsl(206, 63%, 12%);
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      animation: bobbor;
+      animation-duration: 2s;
+      
+      }
+      @keyframes bobbor{
+        from{margin-left: 100%;}
+        to{margin-left: 0%;}
+      }
+
+      .fa-instagram{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        left: 4%;
+        top: 20%;
+        font-size: 40px;
+        animation: bobbor;
+        animation-duration: 2s;
+       }
+       
+       .fa-instagram:hover{
+         transition: 0.5s all;
+         color: black;
+       }
+       
+       .fa-youtube{
+         color: red;
+         position: absolute;
+         font-size: 40px;
+         top: 20%;
+         left: 8%;
+         animation: bobbor;
+         animation-duration: 2s;
+       }
+       
+       .fa-youtube:hover{
+         transition: 0.5s all;
+         color: black;
+       }
+       
+       .fa-envelope{
+         color: rgb(104, 115, 216);
+         position: absolute;
+         font-size: 42px;
+         top: 20%;
+         left: 12.5%;
+         animation: bobbor;
+         animation-duration: 2s;
+       }
+       
+       .fa-envelope:hover{
+         transition: 0.5s all;
+         color: black;
+       }
+    
+
+    .nadpis{
+    display: flex;
+    position: relative;
+    border: 0px solid;
+    border-radius: 30px;
+    height: 30px;
+    width: 45%;
+    background-color:rgb(204, 183, 174) ;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-left: 28%;
+    margin-top: 2%;
+    padding: 15px;
+    }
+
+    #home{
+    position: absolute;
+    border: 0px solid;
+    text-decoration: none;
+    color: rgb(144, 16, 16);
+    font-size: 30px;
+    left: 41%;
+  }
+
+    #home:hover{
+    transition: 0.5S all;
+    color: rgb(0, 0, 0);
+    }
+
+    .creatin{
+     display: flex;
+     position: relative;
+     border: 0px solid;
+     background-color: rgb(181, 190, 198);
+     width: 80%;
+     height: 500px;
+     left: 9%;
+     margin-top: 1%;
+     border-radius: 40px;
+     padding: 20px;
+    }
+
+    #jmenac{
+    position: absolute;
+    border: 0px solid;
+    font-size: 50px;
+    font-style: italic;
+    left: 32%;
+    top: 6%;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 5px hsl(208, 47%, 42%), -3px -3px 5px hsl(206, 63%, 12%);
+    }
+
+    #crea{
+        position: absolute;
+        border: 5px solid;
+        color: rgb(199, 219, 230);
+        left: 8%;
+        top: 16%;
+        rotate: -20deg;
+    }
+
+    #creat{
+        position: absolute;
+        border: 5px solid;
+        color: rgb(199, 219, 230);
+        right: 8%;
+        top: 16%;
+        rotate: 20deg;
+    }
+
+    .texty{
+        position: absolute;
+        border: 2px solid;
+        font-size: 25px;
+        height: 290px;
+        width: 38%;
+        padding: 40px;
+        font-style: italic;
+        border-radius: 30px;
+        background-color: rgb(230, 209, 186);
+        border-color: brown;
+        transition: 1.5s all;
+    }
+
+    .c{
+      position: absolute;
+      flex-wrap: wrap;
+      left: 28%;
+      top: 23%;
+      color: rgb(153, 100, 31);
+
+    }
+
+
+    .šipky{
+      position: relative;
+      border: 0px solid;
+      height: 200px;
+      font-size: 100px;
+      width: 30%;
+      gap: 10em;
+      left: 45%;
+      margin-top: 5%;
+      font-style: italic;
+    }
+
+    .omega3{
+     display: flex;
+     position: relative;
+     border: 0px solid;
+     background-color: rgb(181, 190, 198);
+     width: 80%;
+     height: 500px;
+     left: 9%;
+     margin-top: 2%;
+     border-radius: 40px;
+     padding: 20px;
+    }
+
+    #jmenao{
+      position: absolute;
+      border: 0px solid;
+      font-size: 50px;
+      font-style: italic;
+      left: 43%;
+      top: 6%;
+      color: rgb(0, 0, 0);
+      text-shadow: 3px 3px 5px hsl(208, 47%, 42%), -3px -3px 5px hsl(206, 63%, 12%);
+
+    }
+
+    #omeg{
+        position: absolute;
+        border: 5px solid;
+        color: rgb(199, 219, 230);
+        left: 6%;
+        top: 16%;
+        rotate: -20deg;
+    }
+
+    #omega{
+      position: absolute;
+      border: 5px solid;
+      color: rgb(199, 219, 230);
+      right: 6%;
+      top: 16%;
+      rotate: 20deg;
+    }
+
+    .o{
+      position: absolute;
+      flex-wrap: wrap;
+      left: 28%;
+      top: 23%;
+      color: rgb(153, 100, 31);
+    }
+
+    .šipkyc{
+      position: relative;
+      border: 0px solid;
+      height: 200px;
+      font-size: 100px;
+      width: 30%;
+      gap: 10em;
+      left: 45%;
+      margin-top: 5%;
+      font-style: italic;
+    }
+
+    .vitc{
+     display: flex;
+     position: relative;
+     border: 0px solid;
+     background-color: rgb(181, 190, 198);
+     width: 80%;
+     height: 500px;
+     left: 9%;
+     margin-top: 2%;
+     border-radius: 40px;
+     padding: 20px;
+
+    }
+
+    #jmenaa{
+      position: absolute;
+      border: 0px solid;
+      font-size: 50px;
+      font-style: italic;
+      left: 43%;
+      top: 6%;
+      color: rgb(0, 0, 0);
+      text-shadow: 3px 3px 5px hsl(208, 47%, 42%), -3px -3px 5px hsl(206, 63%, 12%);
+
+    }
+
+    #vtc{
+      position: absolute;
+        border: 5px solid;
+        color: rgb(199, 219, 230);
+        left: 6%;
+        top: 16%;
+        rotate: -20deg;
+    }
+
+    #vtch{
+      position: absolute;
+      border: 5px solid;
+      color: rgb(199, 219, 230);
+      right: 6%;
+      top: 16%;
+      rotate: 20deg;
+    }
+
+    .vc{
+      position: absolute;
+      flex-wrap: wrap;
+      left: 28%;
+      top: 23%;
+      color: rgb(153, 100, 31);
+    }
+
+    .vitd{
+     display: flex;
+     position: relative;
+     border: 0px solid;
+     background-color: rgb(181, 190, 198);
+     width: 80%;
+     height: 500px;
+     left: 9%;
+     margin-top: 2%;
+     border-radius: 40px;
+     padding: 20px;
+    }
+
+    #jmenad{
+      position: absolute;
+      border: 0px solid;
+      font-size: 50px;
+      font-style: italic;
+      left: 43%;
+      top: 6%;
+      color: rgb(0, 0, 0);
+      text-shadow: 3px 3px 5px hsl(208, 47%, 42%), -3px -3px 5px hsl(206, 63%, 12%);
+
+    }
+
+    #vtd{
+      position: absolute;
+        border: 5px solid;
+        color: rgb(199, 219, 230);
+        left: 6%;
+        top: 16%;
+        rotate: -20deg;
+    }
+
+    #vtdh{
+      position: absolute;
+      border: 5px solid;
+      color: rgb(199, 219, 230);
+      right: 6%;
+      top: 16%;
+      rotate: 20deg;
+    }
+
+    .vd{
+      position: absolute;
+      flex-wrap: wrap;
+      left: 28%;
+      top: 23%;
+      color: rgb(153, 100, 31);
+    }
+
+    .texty:hover{
+      transform: scale(1.1);
+    }
+
+    .protein{
+      display: flex;
+      position: relative;
+      border: 0px solid;
+      background-color: rgb(181, 190, 198);
+      width: 80%;
+      height: 500px;
+      left: 9%;
+      margin-top: 2%;
+      border-radius: 40px;
+      padding: 20px;
+     }
+ 
+     #jmenaprot{
+       position: absolute;
+       border: 0px solid;
+       font-size: 50px;
+       font-style: italic;
+       left: 41.2%;
+       top: 6%;
+       color: rgb(0, 0, 0);
+       text-shadow: 3px 3px 5px hsl(208, 47%, 42%), -3px -3px 5px hsl(206, 63%, 12%);
+ 
+     }
+ 
+     #prot{
+         position: absolute;
+         border: 5px solid;
+         color: rgb(199, 219, 230);
+         left: 6%;
+         top: 16%;
+         rotate: -20deg;
+     }
+ 
+     #whey{
+       position: absolute;
+       border: 5px solid;
+       color: rgb(199, 219, 230);
+       right: 6%;
+       top: 16%;
+       rotate: 20deg;
+     }
+ 
+     .pro{
+      position: absolute;
+      flex-wrap: wrap;
+      font-size: 20px;
+      left: 28%;
+      top: 23%;
+      padding: 40px;
+      color: rgb(153, 100, 31);
+     }
+ 

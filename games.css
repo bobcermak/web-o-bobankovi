@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  body{
+  border: 0px solid;
+  margin: 5px;
+  background-color: rgb(39, 48, 67);
+  }
+
+  .hlava{
+    position: sticky;
+    z-index: 100;
+    left: 0px;
+    top: 0px;
+    border:0px solid;
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+    background-color: rgb(39, 48, 67) ;
+  }
+
+  .nadpis1{
+
+    position: absolute;
+    border: 0px solid;
+    left: 47%;
+    top: -2%;
+    color: rgb(19, 75, 158);
+    font-family:"consolas";
+    text-shadow: 3px 3px 5px hsl(208, 47%, 42%), -3px -3px 5px hsl(206, 63%, 12%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: bobbor;
+    animation-duration: 2s;
+    }
+
+    @keyframes bobbor{
+      from{margin-left: 100%;}
+      to{margin-left: 0%;}
+    }
+    
+    .fa-instagram{
+     color: rgb(255, 255, 255);
+     position: absolute;
+     left: 4%;
+     top: 20%;
+     font-size: 40px;
+     animation: bobbor;
+     animation-duration: 2s;
+    }
+    
+    .fa-instagram:hover{
+      transition: 0.5s all;
+      color: black;
+    }
+    
+    .fa-youtube{
+      color: red;
+      position: absolute;
+      font-size: 40px;
+      top: 20%;
+      left: 8%;
+      animation: bobbor;
+      animation-duration: 2s;
+    }
+    
+    .fa-youtube:hover{
+      transition: 0.5s all;
+      color: black;
+    }
+    
+    .fa-envelope{
+      color: rgb(104, 115, 216);
+      position: absolute;
+      font-size: 42px;
+      top: 20%;
+      left: 12.5%;
+      animation: bobbor;
+      animation-duration: 2s;
+    }
+    
+    .fa-envelope:hover{
+      transition: 0.5s all;
+      color: black;
+    }
+
+    .tlacitka{
+      display: flex;
+      position: relative;
+      border: 0px solid;
+      border-radius: 30px;
+      height: 30px;
+      width: 45%;
+      background-color:rgb(204, 183, 174) ;
+      flex-wrap: wrap;
+      gap: 2em;
+      margin-left: 28%;
+      margin-top: 2%;
+      padding: 15px;
+    }
+
+    .home{
+      position: absolute;
+      border: 0px solid;
+      left: 80%;
+      text-decoration: none;
+      color: rgb(144, 16, 16);
+      font-size: 20px;
+      top: 30%;
+    }
+
+    .home:hover{
+      transition: 0.5s all;
+      color: rgb(0, 0, 0);
+    }
+    .valo{
+      position: absolute;
+      border: 0px solid;
+      left: 17%;
+      top: 20%;
+      text-decoration: none;
+      font-size: 30px;
+      color: rgb(34, 116, 165);
+    }
+
+    .valo:hover{
+      transition: 0.5s all;
+      color: black;
+    }
+
+    .csko{
+      position: absolute;
+      border: 0px solid;
+      left: 43%;
+      top: 20%;
+      text-decoration: none;
+      font-size: 30px;
+      color: rgb(34, 116, 165);
+    }
+
+    .csko:hover{
+      transition: 0.5s all;
+      color: black;
+    }
+
+    .val{
+      position: relative;
+      border: 0px solid;
+      width: 80%;
+      height: 750px;
+      left: 10%;
+      margin-top: 4%;
+      transition: 1.5s all;
+    }
+
+    .val:hover{
+      transform: scale(1.1);
+    }
+
+    .nadpis{
+      position: absolute;
+      font-style: italic;
+      font-size: 60px;
+      color: rgb(92, 23, 34);
+      left: 20%;
+  
+    }
+
+    .obrval{
+      position: absolute;
+      top: 13%;
+      left: 5%;
+      border-radius: 400px;
+    }
+
+    .podnadpis1valo{
+      position: absolute;
+      font-style: italic;
+      font-size: 40px;
+      color: rgb(153, 88, 8);
+      top: 1%;
+      right: 17%;
+    }
+
+    .vidval1{
+      position: absolute;
+      right: 10%;
+      top: 10%;
+      border: 2px solid;
+      border-color: rgb(151, 12, 12);
+      border-radius: 15px;
+    }
+
+    .vidval2{
+      position: absolute;
+      right: 10%;
+      top: 48%;
+      border: 2px solid;
+      border-color: rgb(151, 12, 12);
+      border-radius: 15px;
+    }
+
+    button{
+      border: 2px solid;
+      background-color: rgb(153, 88, 8);
+      font-size: 40px;
+      padding: 5px;
+      border-radius: 20px;
+    }
+
+    .bv{
+      position: absolute;
+      top: 75%;
+      left: 21%;
+      transition: 1.5s all;
+    }
+
+    .bv:hover{
+      transform: scale(1.2);
+    }
+
+    .csk{
+      position: relative;
+      border: 0px solid;
+      width: 80%;
+      height: 750px;
+      left: 10%;
+      margin-top: 0%;
+      transition: 1.5s all;
+    }
+
+    .csk:hover{
+      transform: scale(1.1);
+    }
+
+    .nadpis2{
+      position: absolute;
+      font-style: italic;
+      font-size: 60px;
+      color: rgb(92, 23, 34);
+      left: 20%;
+    }
+
+    .obrcs{
+      position: absolute;
+      top: 13%;
+      left: 3%;
+      border-radius: 400px;
+    }
+
+    .podnadpis1csk{
+      position: absolute;
+      font-style: italic;
+      font-size: 40px;
+      color: rgb(153, 88, 8);
+      top: 1%;
+      right: 17%;
+    }
+
+    .vc{
+      position: absolute;
+      right: 12%;
+      top: 10%;
+      border: 2px solid;
+      border-color: rgb(151, 12, 12);
+      border-radius: 15px;
+    }
+
+    .bc{
+      position: absolute;
+      top: 48%;
+      left: 71%;
+      transition: 1.5s all;
+    }
+
+    .bc:hover{
+      transform: scale(1.2);
+    }

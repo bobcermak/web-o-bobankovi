@@ -1,0 +1,279 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    border: 0px solid;
+    margin: 5px;
+    background-color: rgb(39, 48, 67);
+}
+
+.hlava{
+  position: sticky;
+  z-index: 100;
+  left: 0px;
+  top: 0px;
+  border:0px solid;
+  width: 100%;
+  height: 70px;
+  font-size: 30px;
+  background-color: rgb(39, 48, 67) ;
+}
+
+.tvurci{
+  position: absolute;
+  border: 0px solid;
+  left: 48%;
+  text-wrap: wrap;
+  top: -2%;
+  color: rgb(19, 75, 158);
+  font-family:"consolas";
+  text-shadow: 3px 3px 5px hsl(208, 47%, 42%), -3px -3px 5px hsl(206, 63%, 12%);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation: bobbor;
+  animation-duration: 2s;
+}
+
+
+@keyframes bobbor{
+  from{margin-left: 100%;}
+  to{margin-left: 0%;}
+}
+
+.fa-instagram{
+ color: rgb(255, 255, 255);
+ position: absolute;
+ left: 4%;
+ top: 20%;
+ font-size: 40px;
+ animation: bobbor;
+ animation-duration: 2s;
+}
+
+.fa-instagram:hover{
+  transition: 0.5s all;
+  color: black;
+}
+
+.fa-youtube{
+  color: red;
+  position: absolute;
+  font-size: 40px;
+  top: 20%;
+  left: 8%;
+  animation: bobbor;
+  animation-duration: 2s;
+}
+
+.fa-youtube:hover{
+  transition: 0.5s all;
+  color: black;
+}
+
+.fa-envelope{
+  color: rgb(104, 115, 216);
+  position: absolute;
+  font-size: 42px;
+  top: 20%;
+  left: 12.5%;
+  animation: bobbor;
+  animation-duration: 2s;
+}
+
+.fa-envelope:hover{
+  transition: 0.5s all;
+  color: black;
+}
+
+.tlacitka{
+  display: flex;
+  position: relative;
+  border: 0px solid;
+  border-radius: 30px;
+  height: 30px;
+  width: 45%;
+  background-color:rgb(204, 183, 174) ;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-left: 27.35%;
+  margin-top: 2%;
+  padding: 15px;
+}
+
+.home{
+  position: absolute;
+  border: 0px solid;
+  left: 80.2%;
+  text-decoration: none;
+  color: rgb(144, 16, 16);
+  font-size: 20px;
+  top: 30%;
+}
+
+.home:hover{
+  transition: 0.5s all;
+  color: rgb(0, 0, 0);
+}
+
+.kubík{
+  position: absolute;
+  border: 0px solid;
+  left: 9%;
+  top: 30%;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(34, 116, 165);
+}
+
+.kubík:hover{
+  transition: 0.5s all;
+  color: rgb(0, 0, 0);
+}
+
+.codee{
+  position: absolute;
+  border: 0px solid;
+  left: 28%;
+  top: 30%;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(34, 116, 165);
+}
+
+.codee:hover{
+  transition: 0.5s all;
+  color: rgb(0, 0, 0);
+}
+
+.jonek{
+  position: absolute;
+  border: 0px solid;
+  left: 46%;
+  top: 30%;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(34, 116, 165);
+}
+
+
+.jonek:hover{
+  transition: 0.5s all;
+  color: rgb(0, 0, 0);
+}
+
+button{
+  font-size: 40px;
+  background-color: rgb(19, 196, 163);
+  color: rgb(50, 50, 44);
+  padding: 10px;
+  border-radius: 20px;
+  transition: 1.5s all;
+
+}
+
+button:hover{
+  transform: scale(1.2);
+}
+
+.yt{
+  position: relative;
+  border: 0px solid;
+  width: 70%;
+  height: 550px;
+  left: 15%;
+  border-radius: 30px;
+  margin-top: 2%;
+  background-color: rgb(21, 62, 100);
+}
+
+.kubat{
+  position: absolute;
+  font-size: 60px;
+  font-style: italic;
+  left: 6%;
+  top: 2%;
+  color: rgb(129, 178, 154);
+}
+
+.kuba{
+  position: absolute;
+  left: 6%;
+  top: 16%;
+}
+
+.tk{
+  position: absolute;
+  font-size: 30px;
+  font-style: italic;
+  top: 71%;
+  left: 6%;
+  color: antiquewhite;
+}
+
+.bk{
+  position: absolute;
+  left: 8%;
+  top: 84%;
+}
+
+.codet{
+  position: absolute;
+  font-size: 60px;
+  font-style: italic;
+  left: 38%;
+  top: 2%;
+  color: rgb(129, 178, 154);
+}
+
+.code{
+  position: absolute;
+  left: 37%;
+  top: 16%;
+}
+
+.tc{
+  position: absolute;
+  font-size: 30px;
+  font-style: italic;
+  top: 71%;
+  left: 40%;
+  color: antiquewhite;
+}
+
+.bc{
+  position: absolute;
+  left: 40%;
+  top: 84%;
+}
+
+.jont{
+  position: absolute;
+  font-size: 60px;
+  font-style: italic;
+  left: 68%;
+  top: 2%;
+  color: rgb(129, 178, 154);
+}
+
+.jon{
+  position: absolute;
+  left: 68%;
+  top: 16%;
+}
+
+.tj{
+  position: absolute;
+  font-size: 30px;
+  font-style: italic;
+  top: 71%;
+  left: 68%;
+  color: antiquewhite;
+}
+
+.bj{
+  position: absolute;
+  left: 78%;
+  top: 84%;
+}

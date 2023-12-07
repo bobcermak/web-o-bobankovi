@@ -1,0 +1,268 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+  border: 0px solid;
+  margin: 5px;
+  background-color: rgb(39, 48, 67);
+  }
+
+  .hlavagym{
+    position: sticky;
+    z-index: 100;
+    left: 0px;
+    top: 0px;
+    border: 0px solid;
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+  }
+
+.gm{
+  position: absolute;
+  border: 0px solid;
+  left: 47%;
+  top: -2%;
+  color: rgb(19, 75, 158);
+  font-family:"consolas";
+  text-shadow: 3px 3px 5px hsl(208, 47%, 42%), -3px -3px 5px hsl(206, 63%, 12%);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation: gm;
+  animation-duration: 2s;
+}
+
+@keyframes gm{
+  from{margin-left: 100%;}
+  to{margin-left: 0%;}
+}
+
+.fa-instagram{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 4%;
+  top: 20%;
+  font-size: 40px;
+  animation: gm;
+  animation-duration: 2s;
+ }
+ 
+ .fa-instagram:hover{
+   transition: 0.5s all;
+   color: black;
+ }
+ 
+ .fa-youtube{
+   color: red;
+   position: absolute;
+   font-size: 40px;
+   top: 20%;
+   left: 8%;
+   animation: gm;
+   animation-duration: 2s;
+ }
+ 
+ .fa-youtube:hover{
+   transition: 0.5s all;
+   color: black;
+ }
+ 
+ .fa-envelope{
+   color: rgb(104, 115, 216);
+   position: absolute;
+   font-size: 42px;
+   top: 20%;
+   left: 12.5%;
+   animation: gm;
+   animation-duration: 2s;
+ }
+ 
+ .fa-envelope:hover{
+   transition: 0.5s all;
+   color: black;
+ }
+
+
+  .button{
+  display: flex;
+  position: relative;
+  border: 0px solid;
+  border-radius: 30px;
+  height: 30px;
+  width: 45%;
+  background-color:rgb(204, 183, 174) ;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-left: 27.35%;
+  margin-top: 2%;
+  padding: 15px;
+    
+  }
+
+  #prog{
+    position: absolute;
+    border: 0px solid;
+    text-decoration: none;
+    color: rgb(34, 116, 165);
+    left: 43%;
+    font-size: 30px;
+    top: 20%;
+
+  }
+
+  #prog:hover{
+    transition: 0.5s all ;
+    color: rgb(0, 0, 0);
+
+  }
+
+  #sup{
+    position: absolute;
+    border: 0px solid;
+    text-decoration: none;
+    color: rgb(34, 116, 165);
+    left: 12%;
+    font-size: 30px;
+    top: 20%
+  }
+
+  #sup:hover{
+    transition: 0.5S all;
+    color: rgb(0, 0, 0);
+
+  }
+
+  #home{
+    position: absolute;
+    border: 0px solid;
+    text-decoration: none;
+    color: rgb(144, 16, 16);
+    left: 80.2%;
+    font-size: 20px;
+    top: 30%;
+
+  }
+
+  #home:hover{
+    transition: 0.5S all;
+    color: rgb(0, 0, 0);
+
+  }
+
+
+
+  #print{
+  position: relative;
+  border: 2px solid;
+  margin-top: 40%;
+
+  }
+
+  .div{
+    display: flex;
+    position: relative;
+    border: 0px solid;
+    height: 100px;
+    width: 70%;
+    margin-top: 1%;
+    left: 15%;
+    border-radius: 20px;
+    background-color: rgb(61, 64, 91);
+    
+  }
+
+  #print{
+    position: absolute;
+    border: 0px solid;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(129, 178, 154);
+    margin-top: 1%;
+    left: 12%;
+
+  }
+
+  
+
+
+  .spec{
+    position: relative;
+    border: 0px solid;
+    width: 60%;
+    height: 470px;
+    margin-top: -2%;
+    left: 22%;
+    font-size: 80px;
+  }
+
+  .ben{
+    position: absolute;
+    border: 0px solid;
+    top: 10%;
+    left: 27%;
+    font-style: italic;
+    color: rgb(121, 74, 14);
+  }
+
+  .bench{
+    position: absolute;
+    border: 0px solid;
+    top: 10%;
+    left: 52%;
+    font-style: italic;
+  }
+
+  .sq{
+    position: absolute;
+    border: 0px solid;
+    top: 35%;
+    left: 27%;
+    font-style: italic;
+    color: rgb(121, 74, 14);
+  }
+
+  .sqt{
+    position: absolute;
+    border: 0px solid;
+    top: 35%;
+    left: 52%;
+  }
+
+  .dea{
+    position: absolute;
+    border: 0px solid;
+    left: 27%;
+    top: 60%;
+    color: rgb(121, 74, 14);
+    font-style: italic;
+  }
+
+  .dead{
+    position: absolute;
+    border: 0px solid;
+    top: 60%;
+    left: 61%;
+  }
+
+  .c{
+    font-style: italic;
+    color: rgb(72, 154, 209);
+  }
+
+  button{
+    background-color: rgb(129, 178, 154);
+    color: rgb(61, 64, 91);
+    height: 40px;
+    width: 20%;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-top: 35%;
+    margin-left: 38%;
+    transition: 1.5s all;
+  }
+
+  button:hover{
+    transform: scale(1.2);
+  }
